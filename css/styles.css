@@ -156,11 +156,9 @@ img {
 }
 .header-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
-.header-icon:hover,
-.header-icon:focus {
-  fill: var(--accent-color);
-}
+
 
 /*-------------main-----------------------------*/
 .overlay {
@@ -362,8 +360,6 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 .team-social-link {
   width: 44px;
@@ -577,8 +573,6 @@ img {
 }
 .project-link:hover,
 .project-link:focus {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
